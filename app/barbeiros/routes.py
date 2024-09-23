@@ -1,9 +1,10 @@
 import logging
+
 from flask import request
 
-from app.utils import generate_response
 from app import db
 from app.barbeiros.models import Barbeiro
+from app.utils import generate_response
 
 
 def routes(app):

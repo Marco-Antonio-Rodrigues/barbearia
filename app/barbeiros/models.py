@@ -1,6 +1,7 @@
-from app import db
 from sqlalchemy import ForeignKey
 from sqlalchemy.orm import relationship
+
+from app import db
 
 
 class Barbeiro(db.Model):

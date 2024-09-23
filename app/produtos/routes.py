@@ -1,9 +1,11 @@
-from flask import request
-from app.utils import generate_response
-from app import db
-from app.produtos.models import Produto
 import logging
 from datetime import datetime
+
+from flask import request
+
+from app import db
+from app.produtos.models import Produto
+from app.utils import generate_response
 
 
 def routes(app):

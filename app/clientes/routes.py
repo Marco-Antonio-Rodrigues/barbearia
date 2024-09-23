@@ -1,8 +1,8 @@
 from flask import request
 
-from app.utils import generate_response
 from app import db
 from app.clientes.models import Cliente
+from app.utils import generate_response
 
 
 def routes(app):
